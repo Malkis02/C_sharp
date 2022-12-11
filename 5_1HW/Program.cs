@@ -23,7 +23,7 @@ int ReadNumber(string message){
 
 int Sum(int[] arr){
     int sum = 0;
-    for (int i = 1; i < arr.Length; i+=2){
+    for (int i = 0; i < arr.Length; i+=2){
         sum+=arr[i];
     }
     return sum;
